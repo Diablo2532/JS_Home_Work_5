@@ -3,8 +3,9 @@
  * 
  * @param {string} firsName Ім'я користувача.
  * @param {string} lastName Прізвище користувача.
+ * @returns {string} Рядок із привітанням.
  */
 function greetingUser (firsName, lastName ) {
-    alert(`Доброго дня, ${firsName} ${lastName}`);
+    return `Доброго дня, ${firsName} ${lastName}`;
     
 };
