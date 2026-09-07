@@ -15,3 +15,4 @@ const user =  {
 const greeting = greetingUser(user.firstName, user.lastName);
 console.log(greeting);
 
+propertiesUser(user);
