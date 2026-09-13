@@ -76,3 +76,6 @@ console.log(car2.speed);
 
 car3.stop();
 console.log(car3.speed);
+
+const family = createFamily();
+console.log('family', family);
