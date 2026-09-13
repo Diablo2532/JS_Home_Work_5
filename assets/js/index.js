@@ -13,4 +13,6 @@ const user =  {
     },
 };
 console.log('user', user);
+const greeting = greetingUser(user.firstName, user.lastName);
+console.log(greeting);
 
