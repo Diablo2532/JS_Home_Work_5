@@ -1,14 +1,5 @@
-/**
- * Виводить привітання користувачу з його ім'ям та прізвищем.
- * 
- * @param {string} firstName Ім'я користувача.
- * @param {string} lastName Прізвище користувача.
- * @returns {string} Рядок із привітанням.
- */
-function greetingUser (firstName, lastName ) {
-    return `Доброго дня, ${firstName} ${lastName}`;
-    
-};
+
+//Написати функцію, яка приймає об’єкт юзера і виводить вітання типу “Доброго дня, (ім’я_юзера) (прізвище юзера)”
 /**
  *
  * @param {string} firsName Ім'я користувача.
@@ -18,6 +9,7 @@ function greetingUser (firstName, lastName ) {
 function greetingUser(firsName, lastName) {
   return `Доброго дня, ${firsName} ${lastName}`;
 }
+//Написати функцію, яка приймає об’єкт і виводить в консоль всі його властивості (за допомогою циклу for..in)
 /**
  * Приймає об’єкт і виводить у консоль усі його властивості,
  * включно з властивостями вкладеного об’єкта.
@@ -42,7 +34,15 @@ function propertiesObject(object) {
  * @param {number} speed Поточна швидкість автомобіля.
  * @param {number} maxSpeed Максимальна швидкість автомобіля.
  */
-function Car(color, model, make, engineDisplacement, capacity, speed, maxSpeed) {
+function Car(
+  color,
+  model,
+  make,
+  engineDisplacement,
+  capacity,
+  speed,
+  maxSpeed,
+) {
   this.color = color;
   this.model = model;
   this.make = make;
@@ -72,7 +72,6 @@ function Car(color, model, make, engineDisplacement, capacity, speed, maxSpeed) 
   };
 }
 
-
 function createFamily() {
   const family = {};
 
@@ -91,6 +90,3 @@ function createFamily() {
 
   return family;
 }
-
-
-
