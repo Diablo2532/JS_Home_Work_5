@@ -41,3 +41,20 @@ console.log(car.speed);
 
 car.stop();
 console.log(car.speed);
+
+const car1 = new Car("black", "A6", "Audi", 2.0, 5, 0, 250);
+const car2 = new Car("white", "Camry", "Toyota", 2.5, 5, 50, 210);
+const car3 = new Car("red", "Model 3", "Tesla", 0, 5, 20, 225);
+
+console.log(car1);
+console.log(car2);
+console.log(car3);
+
+car1.accelerate(100);
+console.log(car1.speed);
+
+car2.deaccelerate(60);
+console.log(car2.speed);
+
+car3.stop();
+console.log(car3.speed);
